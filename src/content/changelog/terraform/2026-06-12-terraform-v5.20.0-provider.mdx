@@ -8,7 +8,7 @@ date: 2026-06-12
 
 Cloudflare's Terraform v5 Provider makes it easy for developers to manage their Cloudflare infrastructure using a configuration as code approach. It releases every [2-3 weeks] to ensure that you can always manage the latest features in the platform. This week, we launched Terraform v5.20.0, which adds 24 new resources, bumps the underlying Go SDK to cloudflare-go v7, and includes a range of bug fixes and state upgraders based on community feedback.
 
-## New Resources
+## New resources
 
 - **cloudflare_ai_search_namespace:** Manage AI Search namespaces
 - **cloudflare_custom_csr:** Manage custom certificate signing requests
@@ -47,7 +47,7 @@ Cloudflare's Terraform v5 Provider makes it easy for developers to manage their 
 - **snippets:** add Terraform `id_property` annotations for snippet and snippet_rules
 - bump Go SDK to cloudflare-go v7
 
-## Bug Fixes
+## Bug fixes
 
 - **account_member:** missing upgrade path from v5.0–v5.15
 - **authenticated_origin_pulls_settings:** nil pointer panic
@@ -75,7 +75,7 @@ Cloudflare's Terraform v5 Provider makes it easy for developers to manage their 
 
 ## Refactors
 
-- extract `MoveState` nil guard into shared helper
+Extracted `MoveState` nil guard into shared helper
 
 ## For more information
 - [Terraform Provider](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs)
